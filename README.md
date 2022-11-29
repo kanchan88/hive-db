@@ -1,16 +1,12 @@
 # hivedb
+A Simple Example of Using Hive DB for Offline Storage in Flutter. Hive DB is noSQL and you can save data offline using Hive. 
+Search hive in pub.dev
 
-A new Flutter application.
+## IMPORANT
+- You must specify unique HiveType
+- HiveField must be unique ( inside the class only )
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## PROCESS
+1. Add Hive and HiveFlutter in pubspec with hive_generator and build_runner 
+2. Create a HiveDB Class
+3. Call build_runner
